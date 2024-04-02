@@ -25,5 +25,6 @@ int main()
 
     cout << endl;
     cout << "\nNim : " << mhs.nim;
+    cout << "\nNama : " << mhs.nama;
 }
 
