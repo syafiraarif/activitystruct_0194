@@ -38,10 +38,12 @@ int main()
         cout << "Umur Mahasiswa : ";
         cin >> mhs[i].umur;
         cin.ignore(1, '\n');
+        cout << endl;
     }
     for (int i = 0; i < 3; i++)
     {
         cout << endl;
+        cout << "Data Mahasiswa ke- " << (i + 1) << ": " << endl;
         cout << "\n NIM : " << mhs[i].nim;
         cout << "\n Nama : " << mhs[i].nama;
         cout << "\n Alamat : ";
